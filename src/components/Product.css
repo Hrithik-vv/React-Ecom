@@ -1,0 +1,45 @@
+.product-container {
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  background-color: rgb(221, 237, 232);
+}
+.card {
+  border-radius: 15px;
+}
+.card img {
+  border-radius: 30px;
+}
+
+.product-container .card {
+  border-radius: 15px;
+  box-shadow: 0 4px 100px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.product-container .card:hover {
+  transform: translateY(5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-container .card .btn {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.product-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-container h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 600;
+}
