@@ -1,5 +1,5 @@
 import { Button, Card, Row, Col } from "react-bootstrap";
-import "./Product.css";
+import "../components/Product.css";
 
 const Product = () => {
   return (

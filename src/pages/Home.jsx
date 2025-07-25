@@ -1,5 +1,5 @@
 import { Container, Row } from "react-bootstrap";
-import Product from "../components/Product";
+import Product from "./Product";
 
 function Home() {
   const headerStyle = { background: 'red', color: 'white', fontSize: '25px' };
